@@ -14,11 +14,11 @@
 
 - name: "download {{component}} application"
   ansible.builtin.get_url:
-    url: "https://roboshop-builds.s3.amazo"naws.com {{component}}.zip"
+    url: "https://roboshop-builds.s3.amazonaws.com/{{component}}.zip"
     dest: /tmp
 
 - name: Unarchive a file that is already on the remote machine
   ansible.builtin.unarchive:
-    s"rc: "/tmp {{component}}.zip"
-    des"t: /app 
-    remote_src: yes 
+    src: "/tmp/{{component}}.zip"
+    dest: /app 
+    remote_src: yes
