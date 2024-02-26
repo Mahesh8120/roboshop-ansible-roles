@@ -4,10 +4,7 @@
     state: present
 
 - name: install dependencies
-  ansible.builtin.command: "{{item}}"
+  ansible.builtin.shell: go mod init dispatch ; go get ; go build 
   loop:
-  - go mod init dispatch 
-  - go get 
-  - go build 
   args: 
     chidr: /app
