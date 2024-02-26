@@ -1,4 +1,4 @@
-MONGOBD_HOST: mongodb.pjdevops.online
+MONGODB_HOST: mongodb.pjdevops.online
 CATALOGUE_HOST: catalogue.pjdevops.online
 CART_HOST: cart.pjdevops.online
 REDIS_HOST: redis.pjdevops.online
