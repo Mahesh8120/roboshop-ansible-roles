@@ -4,6 +4,6 @@
     state: present
 
 - name: install dependencies
-  ansible.builtin.shell: go mod ; go get ; go build 
+  ansible.builtin.shell: go mod init dispatch ; go get ; go build 
   args: 
     chidr: /app
