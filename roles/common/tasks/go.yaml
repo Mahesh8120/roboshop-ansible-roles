@@ -3,7 +3,7 @@
     name: golang
     state: present
 
-- name: install dependencies
-  ansible.builtin.shell: go mod init dispatch ; go get ; go build 
-  args: 
-    chidr: /app
+- name: installing dependencies
+  ansible.builtin.shell: go mod init dispatch ; go get ; go build
+  args:
+    chdir: /app
