@@ -5,7 +5,7 @@ REDIS_HOST: redis.pjdevops.online
 RABBITMQ_HOST: rabbitmq.pjdevops.onlline
 MYSQL_HOST: mysql.pjdevops.online
 USER_HOST: user.pjdevops.online
-PAYMENT_HOST: payment.pjdevops.online
+PAYMENT_HOST: payments.pjdevops.online
 WEB_HOST: web.pjdevops.online
 SHIPPING_HOST: shipping.pjdevops.online
 DISPATCH_HOST: dispatch.pjdevops.online
